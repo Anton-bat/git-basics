@@ -1,5 +1,6 @@
 
 def anagram(str1, str2):
+    print("Begin")
     return sorted(str1) == sorted(str2)
 
 st1 = "листок"
