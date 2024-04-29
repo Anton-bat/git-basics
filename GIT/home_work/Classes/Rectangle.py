@@ -1,5 +1,3 @@
-
-
 class Rectangle:
 
     def __init__(self, width, long) -> None:
@@ -14,7 +12,9 @@ class Rectangle:
 
 
 rect = Rectangle(2, 4) 
+
 print(rect.square())
+
 print(rect.perimeter())
 
 
